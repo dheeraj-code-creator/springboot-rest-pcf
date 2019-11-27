@@ -1,7 +1,7 @@
 applications:
 - name: springboot-rest-pcf
   domain: cf-tcpapps.io
-  memory: 1024M
+  memory: 1GB
   instances: 3
   path: target/springboot-rest-pcf-0.0.1-SNAPSHOT.jar
   timeout: 180
