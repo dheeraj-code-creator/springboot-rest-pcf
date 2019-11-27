@@ -4,5 +4,8 @@ create org name
 install cloud foundary  https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli
 inside project create manifest.yml file
 login through command prompt(cf login -a api.run.pivotal.io)
+select org name(if asked)
+select space name(if asked)
+cf push
 
 git repo url: https://github.com/dheeraj-code-creator/springboot-rest-pcf
